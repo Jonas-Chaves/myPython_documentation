@@ -14,8 +14,8 @@ def if_functions():
 
 def import_if(x):
     if __name__ == "__main__":
-        return print("hello master")
+        return print(f"hello master, acesso {x} à função.")
     else:
-        return print(f"Intruser!!! {x}")
+        return print(f"Intruser, acesso {x} à função.")
 
 import_if("Interno")

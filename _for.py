@@ -9,3 +9,9 @@ def for_functions():
 
     for x in range(5):
         print(x)
+
+    text = "OpenEDG Python Institute"
+    for letter in text:
+        if letter == "P":
+            continue
+        print(letter, end="")    

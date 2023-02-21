@@ -3,6 +3,7 @@ from print_Banner import menu
 from _print import prints
 from _for import for_functions
 from _input import input_function
+from if_Else_Elif import if_functions, import_if
 
 if __name__ == "__main__":
     while(1):
@@ -14,6 +15,9 @@ if __name__ == "__main__":
             prints()
         elif(x=='2'):
             input_function()
+        elif(x=='3'):
+            if_functions()
+            import_if("Externo")
         elif(x=="4"):
             for_functions()    
 
