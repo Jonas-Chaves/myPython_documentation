@@ -1,7 +1,8 @@
 from print_Banner import banner
 
 def while_functions():
-    banner('While')
+    banner('Exemplos com While')
+    print('Primeiro While')
     x = 0
     while(1):
         print(x)
@@ -9,15 +10,18 @@ def while_functions():
             break
         x+=1
 
+    print('Segundo While')
     count = 0
     while (count < 3):     
         count += 1
         print("Hello")
 
+    print('Terceiro While')
     a = [1, 2, 3, 4]
     while a:
         print(a.pop())
 
+    print('Quarto While')
     i = 0
     a = 'geeksforgeeks'
     
