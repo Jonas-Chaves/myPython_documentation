@@ -5,6 +5,7 @@ from _for import for_functions
 from _input import input_function
 from if_Else_Elif import if_functions, import_if
 from _while import while_functions
+from _lista import lista_function
 
 if __name__ == "__main__":
     while(1):
@@ -22,7 +23,8 @@ if __name__ == "__main__":
         elif(x=="4"):
             for_functions() 
         elif(x=='5'):
-            while_functions()     
-
-
+            while_functions()    
+        elif(x=='6'):
+            lista_function()
         input("\n\nDigite enter para prosseguir...")
+        
