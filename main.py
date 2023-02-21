@@ -4,6 +4,7 @@ from _print import prints
 from _for import for_functions
 from _input import input_function
 from if_Else_Elif import if_functions, import_if
+from _while import while_functions
 
 if __name__ == "__main__":
     while(1):
@@ -19,6 +20,9 @@ if __name__ == "__main__":
             if_functions()
             import_if("Externo")
         elif(x=="4"):
-            for_functions()    
+            for_functions() 
+        elif(x=='5'):
+            while_functions()     
+
 
         input("\n\nDigite enter para prosseguir...")
