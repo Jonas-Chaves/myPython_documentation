@@ -14,3 +14,7 @@ def prints():
 
     lista=['item 1','item 2','item 3']
     print('Imprimir lista= ',lista)
+
+    print('Nome ', end='')
+    print('Sobrenome ', end='*-*')
+    print('\nNome', 'Sobrenome',sep='@')
